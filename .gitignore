@@ -1,0 +1,16 @@
+# Ignore compiled Cython extensions
+*.so
+*.pyd
+*.o
+*.a
+*.dylib
+*.dll
+
+# Ignore build directories
+/build/
+/dist/
+/__pycache__/
+/*.egg-info/
+
+# Ignore setup-generated files
+cython_debug/

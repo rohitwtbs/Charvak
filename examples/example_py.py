@@ -1,4 +1,4 @@
-import example
+import no_gil
 
-print(example.add(10, 20))  # Output: 30
+print(no_gil.add(10, 20))  # Output: 30
 

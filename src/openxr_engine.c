@@ -1482,7 +1482,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char *__pyx_f[] = {
-  "src/openxr_engine.pyx",
+  "src\\\\openxr_engine.pyx",
   "<stringsource>",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -2129,7 +2129,7 @@ static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_OpenXREngine_cleanup[] = "OpenXREngine.cleanup";
-static const char __pyx_k_src_openxr_engine_pyx[] = "src/openxr_engine.pyx";
+static const char __pyx_k_src_openxr_engine_pyx[] = "src\\openxr_engine.pyx";
 static const char __pyx_k_OpenXREngine_initialize[] = "OpenXREngine.initialize";
 static const char __pyx_k_OpenXREngine___reduce_cython[] = "OpenXREngine.__reduce_cython__";
 static const char __pyx_k_OpenXREngine___setstate_cython[] = "OpenXREngine.__setstate_cython__";

@@ -1,10 +1,5 @@
 # Charvak
 
-
-# Your Project Name
-
-Welcome to [Charvak]!
-
 ![Your Mascot](charvak.png)  // Replace with the actual path and filename
 
 

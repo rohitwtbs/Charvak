@@ -13,3 +13,9 @@ Long term goal - Write in game logic in Python , and build for all platforms (VR
 
 
  ![Your Mascot](architecture.png)
+
+
+
+ Date - 6 may 2024
+
+ Lets integrate raylib and a physics engine  , which can be compiled to webassembly

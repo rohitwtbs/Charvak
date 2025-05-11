@@ -1,7 +1,13 @@
 FROM emscripten/emsdk:latest
 
 # Install dependencies
-RUN apt-get update && apt-get install -y git make cmake
+RUN apt-get update && apt-get install -y git make wget
+
+# Install the latest version of CMake
+RUN wget https://github.com/Kitware/CMake/releases/download/v3.25.0/cmake-3.25.0-linux-x86_64.sh && \
+    chmod +x cmake-3.25.0-linux-x86_64.sh && \
+    ./cmake-3.25.0-linux-x86_64.sh --skip-license --prefix=/usr/local && \
+    rm cmake-3.25.0-linux-x86_64.sh
 
 # Clone raylib and build it for WebAssembly
 RUN git clone https://github.com/raysan5/raylib.git /raylib && \
